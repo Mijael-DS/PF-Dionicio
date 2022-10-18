@@ -1,0 +1,41 @@
+/* max 430px */
+@media (max-width: 575px) {
+  .conteiner-service {
+    margin: 0px 5px;
+    border-radius: 2%;
+    .service-img  {
+      padding: 5px 5px;
+      img {
+        height: 200px;
+        width: auto;
+      }
+    }
+  }
+
+  
+
+  .capa-img {
+    height: 200px;
+  }
+} 
+
+@media (min-width: $mobile) {
+    
+    html  {
+      font-size: 60%;
+    }
+    
+   
+} 
+
+@media (min-width: $tablet) {
+  html  {
+    font-size: 70%;
+  }
+  
+  
+}
+
+
+
+  

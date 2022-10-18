@@ -1,0 +1,105 @@
+/* index principal */
+.conteiner-principal  {
+  background-image: url(../img/spacejoy-9M66C_w_ToM-unsplash.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+&::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(0,0,0,0.3);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+}
+  a:hover{
+    color: chocolate;
+    transition: all 2s;
+  }
+  
+  .principal  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: auto;
+    align-items: center;
+    text-align: center;
+    position: relative;
+     
+    h1  {
+      color: $colors;
+      font-size: 3.5rem;
+      font-style: italic;
+      text-align: center;
+      padding: 5px;
+      
+      
+    }
+  
+    a {
+      font-size: 1.5rem;
+      text-decoration: none;
+      transition: all 1s;
+      color: $txt;
+      &:hover {
+        color: black;
+        transition: all 1s;
+        background-color: $bg;
+        scale: 1.1;
+        padding: 0.5rem;
+        border-radius: 10%;
+      }
+    }
+  
+  }
+}
+
+.cont-staff {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem;
+  flex-wrap: wrap;
+  .staff  {
+     display: flex;
+     padding: 1rem;
+     border-radius: 10%;
+     box-shadow: 0 15px 25px rgba(0,0,0,0.50);
+     margin: 0.5rem;
+     transition: all  1s;
+     
+    &:hover {
+      scale: 1.1;
+      transition: all 1s;
+    }
+    
+     .name  {
+      padding: 1rem;
+      h4 {
+        color: $underline;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif
+      }
+     }
+     .staff-img  {
+      padding: 1rem;
+
+      img {
+         border-radius: 50%;
+         height: 180px;
+         box-shadow: 0 15px 25px rgba(0,0,0,0.50);
+     
+       }
+       
+     }
+     
+   }
+}
+
+    
+
+
+  
