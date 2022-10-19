@@ -61,11 +61,11 @@
 .cont-staff {
   display: flex;
   justify-content: space-around;
-  padding: 3rem;
+  padding: 3rem 0.5rem;
   flex-wrap: wrap;
   .staff  {
      display: flex;
-     padding: 1rem;
+     padding: 0.5rem;
      border-radius: 10%;
      box-shadow: 0 15px 25px rgba(0,0,0,0.50);
      margin: 0.5rem;
@@ -85,7 +85,7 @@
       }
      }
      .staff-img  {
-      padding: 1rem;
+      padding: 0.5rem;
 
       img {
          border-radius: 50%;

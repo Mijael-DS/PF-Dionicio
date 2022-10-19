@@ -41,18 +41,18 @@
     /* justify-content: space-evenly;  */
     flex-wrap: wrap;
     margin-top: 20px;
-    padding: 15px;
-    gap: 8px;
+    padding: 12px;
+    gap: 5px;
     justify-content: space-evenly;
     /* index staff */
-    .staff  {
+    /* .staff  {
       text-align: center;
       box-shadow: 0 15px 25px rgba(0,0,0,0.50);
       border-radius: 10%;
       background: linear-gradient(35deg, $colors, $txt);
       padding: 10px;
       
-    }
+    } */
 
     
     .capa-img {
@@ -263,37 +263,34 @@ p {
 
 /* carrito */
 .conteiner-carr {
-/*   height: 100vh;
- */  background: url(../img/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.webp);
-} 
-.cont-carrito {
-  display: flex;
-  justify-content: space-evenly;
- /*  margin: 3rem 0px; */
-  flex-wrap: wrap;
-  border: solid 1px rgb(179, 179, 179);
-  margin: 0px 5rem;
-  padding: 1rem;
-  
-  
-  
-  img {
-    border-radius: 10%;
-    box-shadow: 0 15px 25px rgba(0,0,0,0.50);
-    height: 200px;
-  }
-  .precio {
+  background: url(../img/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  .cont-carrito {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+ /*  margin: 3rem 0px; */
+    flex-wrap: wrap;
+    border: solid 1px rgb(179, 179, 179);
+    margin: 2px 3rem;
     padding: 1rem;
-  }
+    .carr {
+      padding: 0.5rem;
+      img {
+        border-radius: 10%;
+        box-shadow: 0 15px 25px rgba(0,0,0,0.50);
+        height: 200px;
+      }
+    }
+    .precio {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      
+    }
+  
+  
 }  
-
-
-    
-      
-      
-      
-      
+}

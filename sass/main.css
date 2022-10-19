@@ -68,12 +68,12 @@ span {
 .cont-staff {
   display: flex;
   justify-content: space-around;
-  padding: 3rem;
+  padding: 3rem 0.5rem;
   flex-wrap: wrap;
 }
 .cont-staff .staff {
   display: flex;
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 10%;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
   margin: 0.5rem;
@@ -92,7 +92,7 @@ span {
   font-family: "Times New Roman", Times, serif;
 }
 .cont-staff .staff .staff-img {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 .cont-staff .staff .staff-img img {
   border-radius: 50%;
@@ -113,8 +113,13 @@ span {
     height: 200px;
     width: auto;
   }
+  .sect-conteiner .img-item {
+    padding: 5px;
+    gap: 2px;
+  }
   .capa-img {
     height: 200px;
+    margin: 1px;
   }
 }
 @media (min-width: 576px) {
@@ -171,17 +176,18 @@ span {
   /* justify-content: space-evenly;  */
   flex-wrap: wrap;
   margin-top: 20px;
-  padding: 15px;
-  gap: 8px;
+  padding: 12px;
+  gap: 5px;
   justify-content: space-evenly;
   /* index staff */
-}
-.sect-conteiner .img-item .staff {
-  text-align: center;
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
-  border-radius: 10%;
-  background: linear-gradient(35deg, #F2B885, #F2F2F2);
-  padding: 10px;
+  /* .staff  {
+    text-align: center;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.50);
+    border-radius: 10%;
+    background: linear-gradient(35deg, $colors, $txt);
+    padding: 10px;
+
+  } */
 }
 .sect-conteiner .img-item .capa-img {
   position: relative;
@@ -362,26 +368,28 @@ p {
 
 /* carrito */
 .conteiner-carr {
-  /*   height: 100vh;
-   */
   background: url(../img/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
-.cont-carrito {
+.conteiner-carr .cont-carrito {
   display: flex;
   justify-content: space-evenly;
   /*  margin: 3rem 0px; */
   flex-wrap: wrap;
   border: solid 1px rgb(179, 179, 179);
-  margin: 0px 5rem;
+  margin: 2px 3rem;
   padding: 1rem;
 }
-.cont-carrito img {
+.conteiner-carr .cont-carrito .carr {
+  padding: 0.5rem;
+}
+.conteiner-carr .cont-carrito .carr img {
   border-radius: 10%;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
   height: 200px;
 }
-.cont-carrito .precio {
+.conteiner-carr .cont-carrito .precio {
   display: flex;
   flex-direction: column;
   align-items: center;
