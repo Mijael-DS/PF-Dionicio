@@ -44,17 +44,6 @@
     padding: 12px;
     gap: 5px;
     justify-content: space-evenly;
-    /* index staff */
-    /* .staff  {
-      text-align: center;
-      box-shadow: 0 15px 25px rgba(0,0,0,0.50);
-      border-radius: 10%;
-      background: linear-gradient(35deg, $colors, $txt);
-      padding: 10px;
-      
-    } */
-
-    
     .capa-img {
       position: relative;
       overflow: hidden;
@@ -269,7 +258,6 @@ p {
   .cont-carrito {
     display: flex;
     justify-content: space-evenly;
- /*  margin: 3rem 0px; */
     flex-wrap: wrap;
     border: solid 1px rgb(179, 179, 179);
     margin: 2px 3rem;
