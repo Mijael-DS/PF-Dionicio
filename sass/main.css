@@ -67,17 +67,18 @@ span {
 
 .cont-staff {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 3rem 0.5rem;
   flex-wrap: wrap;
 }
 .cont-staff .staff {
   display: flex;
-  padding: 0.5rem;
+  padding: 1.5rem;
   border-radius: 10%;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
   margin: 0.5rem;
   transition: all 1s;
+  flex-direction: column;
 }
 .cont-staff .staff:hover {
   scale: 1.1;
@@ -85,6 +86,7 @@ span {
 }
 .cont-staff .staff .name {
   padding: 1rem;
+  text-align: center;
 }
 .cont-staff .staff .name h4 {
   color: #0C2126;
@@ -101,7 +103,7 @@ span {
 }
 
 /* max 430px */
-@media (max-width: 575px) {
+@media (max-width: 450px) {
   .conteiner-service {
     margin: 0px 5px;
     border-radius: 2%;
@@ -110,13 +112,19 @@ span {
     padding: 5px 5px;
   }
   .conteiner-service .service-img img {
-    height: 200px;
-    width: auto;
+    height: 250px;
+    width: 250px;
   }
   .sect-conteiner .img-item {
     padding: 5px;
     gap: 2px;
   }
+  .capa-img {
+    height: 200px;
+    margin: 1px;
+  }
+}
+@media (max-width: 575px) {
   .capa-img {
     height: 200px;
     margin: 1px;
@@ -179,15 +187,6 @@ span {
   padding: 12px;
   gap: 5px;
   justify-content: space-evenly;
-  /* index staff */
-  /* .staff  {
-    text-align: center;
-    box-shadow: 0 15px 25px rgba(0,0,0,0.50);
-    border-radius: 10%;
-    background: linear-gradient(35deg, $colors, $txt);
-    padding: 10px;
-
-  } */
 }
 .sect-conteiner .img-item .capa-img {
   position: relative;
@@ -259,10 +258,11 @@ span {
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
   border-radius: 10%;
   margin: 0.5rem 1rem;
+  padding: 3rem;
 }
 
 .service-img {
-  padding: 30px 30px;
+  padding: 25px 25px;
   display: flex;
   justify-content: center;
 }
@@ -375,7 +375,6 @@ p {
 .conteiner-carr .cont-carrito {
   display: flex;
   justify-content: space-evenly;
-  /*  margin: 3rem 0px; */
   flex-wrap: wrap;
   border: solid 1px rgb(179, 179, 179);
   margin: 2px 3rem;

@@ -60,16 +60,18 @@
 
 .cont-staff {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 3rem 0.5rem;
   flex-wrap: wrap;
+  
   .staff  {
      display: flex;
-     padding: 0.5rem;
+     padding: 1.5rem;
      border-radius: 10%;
      box-shadow: 0 15px 25px rgba(0,0,0,0.50);
      margin: 0.5rem;
      transition: all  1s;
+     flex-direction: column;
      
     &:hover {
       scale: 1.1;
@@ -78,6 +80,7 @@
     
      .name  {
       padding: 1rem;
+      text-align: center;
       h4 {
         color: $underline;
         text-align: center;

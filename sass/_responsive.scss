@@ -1,13 +1,13 @@
 /* max 430px */
-@media (max-width: 575px) {
+@media (max-width: 450px) {
   .conteiner-service {
     margin: 0px 5px;
     border-radius: 2%;
     .service-img  {
       padding: 5px 5px;
       img {
-        height: 200px;
-        width: auto;
+        height: 250px;
+        width: 250px;
       }
     }
   }
@@ -15,13 +15,20 @@
   .sect-conteiner .img-item {
     padding: 5px;
     gap: 2px;
-  }
+  }  
   
   .capa-img {
     height: 200px;
     margin: 1px;
   }
 } 
+
+@media  (max-width: 575px)  {
+  .capa-img {
+    height: 200px;
+    margin: 1px;
+  }
+}
 
 @media (min-width: $mobile) {
     
